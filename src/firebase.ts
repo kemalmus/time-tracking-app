@@ -3,12 +3,12 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyA724wEtV2CYrHdiKSdVkjZpvbjnNtYjR0",
+  authDomain: "time-management-d4d2d.firebaseapp.com",
+  projectId: "time-management-d4d2d",
+  storageBucket: "time-management-d4d2d.appspot.com",
+  messagingSenderId: "88955279100",
+  appId: "1:88955279100:web:57c38541f9b922ff6f6979"
 };
 
 const app = initializeApp(firebaseConfig);
